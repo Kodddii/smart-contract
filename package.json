@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.7.3",
+    "env-var": "^7.1.1",
     "tsc-watch": "^5.0.3"
   }
 }
