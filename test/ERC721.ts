@@ -23,7 +23,7 @@ describe('Token contract', () => {
   })
 
   describe('mint', () => {
-    it('Minting',async () => {
+    it('Minting', async () => {
       await erc721.mint(owner.address); 
       
       const ownerBalance = await erc721.balanceOf(owner.address);
@@ -32,7 +32,7 @@ describe('Token contract', () => {
     })
   })
   describe('ownerCheck', () => {
-    it('owner check',async () => {
+    it('owner check', async () => {
       await erc721.mint(owner.address); 
       
       const ownerNow = await erc721.ownerOf(0);

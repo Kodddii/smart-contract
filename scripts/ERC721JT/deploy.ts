@@ -1,0 +1,23 @@
+import { ethers } from 'hardhat';
+
+import { ERC721JT } from '../../typechain-types';
+
+let jgtoken: ERC721JT;
+
+
+export const main = async () => {
+  const [deployer] = await ethers.getSigners();
+  console.log('deployer address : ', deployer.address);
+  const Token = await ethers.getContractFactory('ERC721JT')
+  const JGToken = await Token.deploy('JgToken','JT');
+  jgtoken = await JGToken.deployed();
+  console.log('Token address', jgtoken.address)
+}
+
+
+main()
+  .then(() => process.exit(0))
+  .catch(error => {
+    console.error(error);
+    process.exit(1)
+  });
