@@ -2,8 +2,6 @@ import { expect, use } from 'chai';
 import { ethers, waffle} from 'hardhat';
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
 import { ERC721Mock, ERC721Mock__factory } from '../typechain-types';
-import { loadFixture } from 'ethereum-waffle';
-import { Token } from '../typechain-types/contracts/token.sol';
 import exp from 'constants';
 
 describe('Token contract', () => {
