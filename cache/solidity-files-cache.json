@@ -1229,6 +1229,163 @@
       "artifacts": [
         "ERC20Pausable"
       ]
+    },
+    "/Users/haendeuseutyudio/Documents/GitHub/smart-contract/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1661771175974,
+      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/haendeuseutyudio/Documents/GitHub/smart-contract/node_modules/@openzeppelin/contracts/utils/Base64.sol": {
+      "lastModificationDate": 1661771175938,
+      "contentHash": "8f868da0a90e46a85baa348a896d1702",
+      "sourceName": "@openzeppelin/contracts/utils/Base64.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Base64"
+      ]
+    },
+    "/Users/haendeuseutyudio/Documents/GitHub/smart-contract/contracts/SmiNFT.sol": {
+      "lastModificationDate": 1666246450100,
+      "contentHash": "8d168471ff2ece11f4889af9ed2b9af2",
+      "sourceName": "contracts/SmiNFT.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Strings.sol",
+        "@openzeppelin/contracts/utils/Base64.sol",
+        "@openzeppelin/contracts/token/ERC721/presets/ERC721PresetMinterPauserAutoId.sol",
+        "./FixedImageERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SmiSwapCoupon"
+      ]
+    },
+    "/Users/haendeuseutyudio/Documents/GitHub/smart-contract/contracts/FixedImageERC721.sol": {
+      "lastModificationDate": 1666246407421,
+      "contentHash": "86498703a2f9ea8dced7be571d2c8274",
+      "sourceName": "contracts/FixedImageERC721.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Strings.sol",
+        "@openzeppelin/contracts/utils/Base64.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/access/AccessControlEnumerable.sol",
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol",
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721Pausable.sol",
+        "@openzeppelin/contracts/utils/Counters.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FixedImageERC721"
+      ]
     }
   }
 }
